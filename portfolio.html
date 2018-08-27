@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link href="favicon.ico" rel="shortcut icon" type="image/x-generic" />
+	<title>P0RTF0LI0 | Sean Canfield</title>
+<style>
+body {
+	text-align: center;
+    background-color: ;
+}
+* {box-sizing: border-box;}
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 450px;
+}
+
+.image {
+  display: block;
+  width: 450px;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 33%; /* IE10 */
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+</style>
+<body>
+<h>PORTFOLI&#9737; | Sean Canfield
+<br> <a href="index.html">↜home</a> ☄  <a href="shop.html">shop</a> ☄ <a href="contact.html">contact</a>
+</h>
+<center>
+
+<p>
+<!--- <div class="container">
+  <img src="source-link" alt="" class="image">
+  <div class="overlay">Title</br>Medium</br>Year</div>
+
+    <img src="" style="width:100%">
+</div> --->
+
+<div class="row"> 
+  <div class="column">
+	<img src="https://i.imgur.com/y68M0zw.jpg" style="width:100%"><b>my name is john</b></br>cut paper</br>2016
+	<img src="https://i.imgur.com/PBbDbdv.png" style="width:100%"><b>speakup</b></br>collage</br>2016
+  </div>
+  <div class="column">
+    <img src="https://i.imgur.com/XirQlWn.jpg" style="width:100%"><b>over land</b></br>acrylic & marker on paper</br>2017
+<a href="room.html"><img src="https://i.imgur.com/mJzqA9S.jpg" style="width:100%"><b>sub-basement room</b></br>full room mural</br>2017</br>(click thru for more)</a>
+	
+  </div>  
+  <div class="column">
+	    <img src="https://i.imgur.com/qFDujCF.png" style="width:100%"><b>range life</b></br>collage (29"x22")</br>2018
+    <img src="https://i.imgur.com/BhbfjQP.jpg" style="width:100%"><b>sweet pup</b></br>acrylic</br>2014
+  </div>
+</div>
+
+</p>
+</center>
+</body>
+</html>
