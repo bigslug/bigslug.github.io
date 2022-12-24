@@ -5,13 +5,18 @@
 	<title>𓆑</title>
 <style>
 
+html {
+  cursor: url(https://cdn.custom-cursor.com/db/7048/32/animals-snail-cursor.png), auto !important; 
+
+}
+
 body {
-background-color:aliceblue;
+  background-color:aliceblue;
 	font-size: 20px;
 	text-align: left;
 	font-family: ;
- overflow-x: scroll;
- white-space: nowrap;
+ overflow-x: wrap;
+ white-space: wrap;
  border-style: ;
  border-radius: 0%;
  border-color:;
@@ -24,97 +29,97 @@ background-color:aliceblue;
 	}
 
 a {
-  text-decoration: ;
-  font-size: 20px;
-  color: 
-  font-family: ;
- text-decoration: ;
-}
-a.hover {
-  background-color: deeppink;
-  color:aliceblue;
+  text-decoration: none;
 }
 
+a:hover {
+  cursor: url(https://cdn.custom-cursor.com/db/7048/32/animals-snail-cursor.png), auto !important; 
+  text-decoration: none;
+}
+ 
+a:active{
+  -webkit-filter: invert(1);
+   filter: invert(1);
+   text-decoration: none;
+}
 
 .img-container {
-  float: right;
+  float: left;
   padding: 15px;
   display: inline;
   margin-top: 0em;
 }
-.nav li a {
-    padding: 0.75rem;
-    border: ;
-    text-decoration: none;
-    color: black;
-    display: block;
-    width: ;
-    height: ;
-    line-height: ;
-    text-align: center;
-    font-size: 24px;
 
-}
-.nav li{
-  display: inline-block;
-}
-ul {
-  padding: 0px;
-    list-style-type: none;
-    margin-right: 24em;
-  float: center;
-  
+.container {
+  position: relative;
+  width: 50%;
+  float: left !important;
 }
 
-.body{
-  padding-left: 10%;
-  padding-right: 10%;
-  margin-top: 10%;
- 
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffd000;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: 1.5s ease;
 }
-.header{
-  font-size:46px;
-  font-family: Georgia, serif;
+
+.container:hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
 }
-.h1{
+
+.text {
+  color: white;
   font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h1{
+  color: red;
+  font-size: 200pt;
+  font-family: 'Times New Roman', Times, serif;
+}
+h1:hover {
+  font-size: 200pt;
+  font-family: 'Times New Roman', Times, serif;
+}
+.swoop {
+  margin-top: -1000px; 
 }
 </style>
 
 <body>
   <div class="body">
-    <header><div class="header">
-    bird flying below the ground <div class="img-container"><img src="swoopy.gif" style="width:200px;"></div>
-    
-      <ul class="nav">
-  <li>
-      <button><a href="about.html">about</a></button></li> 
-  <li>
-    <button><a href="work.html">work</a></button>
-    </li>
-  </div>
-  </header>	
- email me : birdflyingbelowtheground@gmail.com
-<br><a href="https://guests1.bandcamp.com">bandcamp</a>
-<br><a href="https://www.instagram.com/the_lookin_machine/">instagram</a>
-<br>
-<br>
-    <p><i>News!</i>
-      <br>
-      <br>(11/1/22)
-      <br>now accepting commissions for flyers! see my <a href="work.html">work</a> section or check out my instagram for previous examples. 
-      <br>i am looking to expand to my portfolio and capping my fee at $40. screenprinted posters (11x17") of your flyer are also possible,
-      <br>for additional money. email me or send me a message on instagram to talk details. at least one week turnaround please. 
-      <br>
-      <br>(9/28/22)
-    <br>out now on <a href="https:/tapesscree.bandcamp.com">tapes scree</a>: "am", an album by guests, my main music project.
-    <br>marking a departure from the debut guests offering, "legacy, out back" which shunned all amplification in favor of exploring the power of the human voice,
-    <br>this album embraces the electric whole-heartedly as guitars squeal and distortion washes over the mix like a wave breaking. 
-    <br>interspersed are momentary callbacks to guests earlier days -- folky interludes painting a picture of our narrator alone in nature,
-    <br>but that picture rips and tears dropping the listener through a jagged opening to god-knows-where.
-    <br><a href="https://guests1.bandcamp.com/album/am">>>>listen here<<<</a>
-  </p>
+    <div class="container">
+ <a href="news.html"><img src="cat-halftone.png" style="width: 800px; height: 800px; margin-right: 10px;" class="image">
+ <div class="overlay">
+  <img src="cat-halftone.png" style="width: 800px; height: 800px; margin-right: 10px;" class="image">
+  <div class="text">enter</div>
+</div></a>
 </div>
+</div>
+<h1>bird flying below the ground ꩜
+</h1>
+<div class="swoop">
+<marquee><img src="swoopy2.gif" style="width:400px;"></marquee>
+</div>
+
 
 	</body>
 	</html>
